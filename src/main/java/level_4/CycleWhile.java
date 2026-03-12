@@ -83,5 +83,12 @@ public class CycleWhile {
         }
         System.out.println(sum);
 
+        // Пример 5. Вывести 10 раз "Привет!"
+        String name = "Привет!";
+        int count = 0;
+        while (count <= 10) {
+            System.out.println(name);
+            count++;
+        }
     }
 }
